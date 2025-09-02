@@ -10,11 +10,11 @@
 
 body,html {
 
-  background:linear-gradient(rgba(53, 53, 53, 0.1), rgba(53, 53, 53, 0.1)), url('./img/bg1.jpg');
+  background: linear-gradient(rgba(53, 53, 53, 0.1), rgba(53, 53, 53, 0.1)), url('./img/bg1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover; 
-  color:#ffd700;
+  background-size: cover;
+  color: #ffd700;
   text-align: center;
   line-height: 1.6;
   padding: 10px;
@@ -24,88 +24,76 @@ body,html {
   flex-direction: column;
   cursor: none;
 }
-:hover
-{
+
+:hover {
   cursor: none;
 }
 
 .cursor {
-  /* position: fixed;
-  top: 0;
-  left: 0;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  pointer-events: none;
-  background: rgb(4, 112, 7);
-  box-shadow: 0 0 30px 15px  rgb(6, 181, 12);
-  transform: translate(-50%, -50%);
-  transition: transform 0.15s ease-out; smooth following */
   position: fixed;
   top: 0;
   left: 0;
-  width: 25px;   /* size of your icon */
+  width: 25px;
   height: 40px;
   pointer-events: none;
   background: url("./img/cursor1.png") no-repeat center center;
-  background-size: contain;   /* keeps image ratio */
+  background-size: contain;
   transform: translate(-50%, -50%);
-  transition: transform 0.15s ease-out; /* smooth following */
-  filter: drop-shadow(0 0 30px rgb(6, 181, 12)); /* glowing effect */
+  transition: transform 0.15s ease-out;
+  filter: drop-shadow(0 0 30px rgb(6, 181, 12));
   z-index: 9999;
 }
 
-/* Header */
+
 header {
   padding: 20px;
-  background: rgba(255,255,255,0.05);
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
 header h1 {
   font-size: 2.5rem;
 }
 
-/* Buttons */
+
 .btn {
   display: inline-block;
   margin: 10px;
   padding: 12px 25px;
   border-radius: 25px;
   background: #04ba1a;
-  color :#f1f3b8;
+  color: #f1f3b8;
   text-decoration: none;
   font-weight: bold;
   transition: 0.3s;
   text-align: center;
 }
+
 .btn:hover {
-  background:#023f09;
-  color:#d1d645;
+  background: #023f09;
+  color: #d1d645;
   transform: scale(1.05);
 }
 
-/* Home */
+
 .home {
   padding: 20px;
 }
+
 .home p {
   margin-bottom: 20px;
   font-size: 1.8rem;
 }
 
-/* Map */
+
 .campus-map {
-  /* width: 650px;
-  height: 410px;
+
+  width: 80%;
   max-width: 800px;
-  border-radius: 15px;
-  margin-bottom: 15px; */
-  width: 80%;   /* makes it responsive */
-  max-width: 800px;  /* prevents it from getting too large */
-  height: auto;  /* keeps aspect ratio */
+  height: auto;
   display: block;
-  margin: 0 auto;  /* centers the map */
+  margin: 0 auto;
 }
 
 .map-info {
@@ -113,55 +101,58 @@ header h1 {
   font-size: 1.8rem;
 }
 
-/* Facility List */
+
 .facility-list {
-    display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 per row */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding: 30px;
 }
+
 .card {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   padding: 15px;
   transition: 0.3s;
 }
+
 .card:hover {
-  background: rgba(255,255,255,0.2);
+  background: rgba(255, 255, 255, 0.2);
   transform: scale(1.05);
 }
+
 .card img {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 10px;
 }
+
 .card h3 a {
   color: #ffd700;
   text-decoration: none;
 }
 
-/* Facility Details */
+
 .facility-detail {
   padding: 20px;
 }
+
 .facility-detail img {
   width: 80%;
   max-width: 500px;
   border-radius: 15px;
   margin-bottom: 15px;
 }
-.backbutton
-{
-  /* display: flex;
-  justify-content: center; /* horizontal center 
-  margin: 20px 0; */
+
+.backbutton {
   text-align: center;
 }
+
 footer {
   margin-top: auto;
   color: #ffd700;
   text-align: center;
   padding: 10px 0;
   font-size: 14px;
-  background-color:  rgba(255,255,255,0.05);
+  background-color: rgba(255, 255, 255, 0.05);
 }
