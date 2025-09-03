@@ -2,11 +2,11 @@
 const cursor = document.querySelector(".cursor");
 
 document.addEventListener("mousemove", (e) => {
-  cursor.style.top = e.clientY + "px";  // use clientY
-  cursor.style.left = e.clientX + "px"; // use clientX
+  cursor.style.top = e.clientY + "px";  
+  cursor.style.left = e.clientX + "px"; 
 });
 
-// Hover effect for links and buttons
+
 const hoverables = document.querySelectorAll("a, button");
 
 hoverables.forEach(el => {
