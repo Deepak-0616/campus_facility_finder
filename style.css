@@ -8,7 +8,8 @@
   font-style: normal;
 }
 
-body,html {
+body,
+html {
 
   background: linear-gradient(rgba(53, 53, 53, 0.1), rgba(53, 53, 53, 0.1)), url('./img/bg1.jpg');
   background-repeat: no-repeat;
@@ -133,6 +134,13 @@ header h1 {
 }
 
 
+.facility-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 30px;
+}
+
 .facility-detail {
   padding: 20px;
 }
@@ -144,9 +152,36 @@ header h1 {
   margin-bottom: 15px;
 }
 
-.backbutton {
-  text-align: center;
+/* Responsive breakpoints */
+@media (max-width: 1024px) {
+  .facility-list {
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 cards per row on tablets */
+  }
 }
+
+@media (max-width: 600px) {
+  .facility-list {
+    grid-template-columns: 1fr;
+    /* 1 card per row on mobile */
+    padding: 15px;
+    
+  }
+
+  .card img {
+    height: auto;
+  }
+
+  .card h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .backbutton {
+    margin-top: 20px;
+  }
+}
+
 
 footer {
   margin-top: auto;
