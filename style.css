@@ -152,18 +152,15 @@ header h1 {
   margin-bottom: 15px;
 }
 
-/* Responsive breakpoints */
 @media (max-width: 1024px) {
   .facility-list {
     grid-template-columns: repeat(2, 1fr);
-    /* 2 cards per row on tablets */
   }
 }
 
 @media (max-width: 600px) {
   .facility-list {
     grid-template-columns: 1fr;
-    /* 1 card per row on mobile */
     padding: 15px;
     
   }
@@ -177,8 +174,14 @@ header h1 {
     text-align: center;
   }
 
+.facility-detail img {
+  height: auto;
+}
   .backbutton {
     margin-top: 20px;
+  }
+  p{
+      font-size: small;
   }
 }
 
