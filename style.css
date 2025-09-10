@@ -45,7 +45,6 @@ html {
   z-index: 9999;
 }
 
-
 header {
   padding: 20px;
   background: rgba(255, 255, 255, 0.05);
@@ -56,7 +55,6 @@ header {
 header h1 {
   font-size: 2.5rem;
 }
-
 
 .btn {
   display: inline-block;
@@ -77,7 +75,6 @@ header h1 {
   transform: scale(1.05);
 }
 
-
 .home {
   padding: 20px;
 }
@@ -87,9 +84,7 @@ header h1 {
   font-size: 1.8rem;
 }
 
-
 .campus-map {
-
   width: 80%;
   max-width: 800px;
   height: auto;
@@ -101,7 +96,6 @@ header h1 {
   margin: 15px 0;
   font-size: 1.8rem;
 }
-
 
 .facility-list {
   display: grid;
@@ -133,7 +127,6 @@ header h1 {
   text-decoration: none;
 }
 
-
 .facility-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -162,7 +155,7 @@ header h1 {
   .facility-list {
     grid-template-columns: 1fr;
     padding: 15px;
-    
+
   }
 
   .card img {
@@ -174,17 +167,18 @@ header h1 {
     text-align: center;
   }
 
-.facility-detail img {
-  height: auto;
-}
+  .facility-detail img {
+    height: auto;
+  }
+
   .backbutton {
     margin-top: 20px;
   }
-  p{
-      font-size: small;
+
+  p {
+    font-size: small;
   }
 }
-
 
 footer {
   margin-top: auto;
