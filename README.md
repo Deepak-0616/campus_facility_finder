@@ -1,4 +1,4 @@
-Campus Facility Finder
+# Campus Facility Finder
 
 An interactive map of St. Joseph’s Institute of Technology that helps students and visitors easily locate blocks, facilities, and important areas on campus.
 
